@@ -1,0 +1,28 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "First time starting with Node JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/config/index.js",
+    "dev": "nodemon src/config/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhavBHINGE/Node_JS.git"
+  },
+  "author": "Vaibhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibhavBHINGE/Node_JS/issues"
+  },
+  "homepage": "https://github.com/vaibhavBHINGE/Node_JS#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.21.1",
+    "nodemon": "^3.1.11"
+  }
+}
